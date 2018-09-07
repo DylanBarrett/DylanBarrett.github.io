@@ -6,16 +6,16 @@
 
 <style>
 h1{
+	font-size: 50px;
 	color: blue;
 	text-align: center;
 }
 p{
 	text-align: left;
-	color: green;
+	color: red;
 }
 #background{
-	position: relative;
-	color: slategray;
+	background-color: slategray;
 	margin: 0px;
 	padding: 0px;
 	height: 100%;
@@ -28,17 +28,15 @@ p{
 	background-color: yellow;
 	color: black;
 	border: 3px solid red;
-	position: absolute;
-	left: 50%;
-	top: 50%;
+	text-align: center;
 }
 #button{
 	background-color: green;
 	color: orange;
 	border: 3px solid pink;
-	position: absolute;
-	left: 50%;
-	top: 75%;
+	text-align center;
+}
+	
 	
 </style>
 
@@ -56,6 +54,6 @@ function myFunction() {
 	<p>This is my Github.io page for CS 4830</p>
 	<button class="button">This button does nothing.</button>
 	
-	<button onClick=myFunction()" id="button">This button does something.</button>
+	<button onClick="myFunction()" id="button">This button does something.</button>
 </body>
 </html>
